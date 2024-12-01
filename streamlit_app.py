@@ -9,7 +9,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 
 # Load Dataset
-df = pd.read_csv(r'C:\Users\User\Downloads\hs\diabetes.csv')
+df = pd.read_csv(r'C:\Users\User\Downloads\hs\streamlit_app.py\diabetes.csv')
 
 # Preprocessing
 df = df.drop('Pregnancies', axis=1)  # Drop 'Pregnancies' column
